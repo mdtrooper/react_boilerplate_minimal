@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import { app } from './app.css'
 
 export default class App extends React.Component {
@@ -10,4 +12,8 @@ export default class App extends React.Component {
   render () {
     return <h1 className={app}>{this.state.text}</h1>
   }
+}
+
+App.propTypes = {
+  text: PropTypes.string
 }
