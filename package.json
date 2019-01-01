@@ -7,7 +7,7 @@
     "build": "rm -rf dist; webpack-cli --config *.prod.js",
     "dev": "webpack-serve --config *.dev.js",
     "lint": "eslint --ext .jsx,.js src",
-		"test": "jest -u --coverage"
+    "test": "jest --coverage -u"
   },
   "keywords": [],
   "author": "",
@@ -42,11 +42,5 @@
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
-  },
-  "jest": {
-    "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|less)$": "identity-obj-proxy"
-    }
   }
 }
