@@ -5,6 +5,6 @@ module.exports = {
   mode: 'production',
   output: {
     filename: '[name].[chunkhash].js',
-    path: `${__dirname}/dist`,
-  },
+    path: `${__dirname}/dist`
+  }
 }
