@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rm -rf dist; webpack-cli --config *.prod.js",
     "dev": "webpack-serve --config *.dev.js",
-    "lint": "eslint --ext .jsx,.js src",
+    "lint": "eslint '*.js?(x)' 'src/*.js?(x)' 'test/*?(x)'",
     "test": "jest --coverage -u"
   },
   "keywords": [],
