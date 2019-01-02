@@ -1,5 +1,5 @@
 {
-  "name": "prueba06",
+  "name": "react_boilerplate_minimal",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
@@ -10,8 +10,8 @@
     "test": "jest --coverage -u"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Miguel de Dios Matias",
+  "license": "GPL",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
