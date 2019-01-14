@@ -18,4 +18,3 @@ class TestStore {
 
 const testStore = new TestStore()
 export default testStore
-export { TestStore }
