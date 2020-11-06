@@ -39,7 +39,7 @@
     "react-test-renderer": "^16.7.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.28.2",
-    "webpack-cli": "^3.1.2",
+    "webpack-cli": "^4.2.0",
     "webpack-serve": "^2.0.3"
   },
   "dependencies": {
