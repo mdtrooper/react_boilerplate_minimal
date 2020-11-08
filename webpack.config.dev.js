@@ -1,7 +1,6 @@
-const path = require('path');
+const path = require('path')
 
-const HtmlWebpackPlugin = require('html-webpack-plugin'); //installed via npm
-const webpack = require('webpack'); //to access built-in plugins
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: 'development',
@@ -35,5 +34,5 @@ module.exports = {
       title: 'App',
       template: './public/index.html'
     })
-  ],
-};
+  ]
+}
