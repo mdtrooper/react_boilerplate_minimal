@@ -1,10 +1,14 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path');
+
+const HtmlWebpackPlugin = require('html-webpack-plugin'); //installed via npm
+const webpack = require('webpack'); //to access built-in plugins
 
 module.exports = {
   mode: 'development',
+  entry: './src/index.js',
   output: {
-    filename: '[name].js',
-    path: `${__dirname}/dist`
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'react_boilerplate_minimal.bundle.js'
   },
   module: {
     rules: [
@@ -29,8 +33,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'App',
-      template: 'public/index.html'
+      template: './public/index.html'
     })
   ],
-  serve: {}
-}
+};
