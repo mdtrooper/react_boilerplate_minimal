@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "cd .. && npm run build && cp dist/* cordova/www/",
-    "browser": "npm run build && cordova run browser"
+    "browser": "npm run build && cordova platform add browser; cordova run browser"
   },
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
